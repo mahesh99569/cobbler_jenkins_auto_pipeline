@@ -1,0 +1,1 @@
+# cobbler_jenkins_auto_pipeline

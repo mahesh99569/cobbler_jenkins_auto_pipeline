@@ -56,5 +56,5 @@ do
                      --power-user=${SYSTEM_IPMI_USER} \
                      --power-pass=${SYSTEM_IPMI_PASS} \
                      --power-id=lanplus \
-                     --kickstart=/var/lib/cobbler/kickstarts/sample.seed
+                     --kickstart=/var/lib/cobbler/kickstarts/sample.ks
 done

@@ -1,11 +1,10 @@
 #!/bin/bash
-
 DNS_DOMAIN="cobbler-test.local"
-PROFILE="ubuntu14-x86_64"
-ENV_NAME="cobbler-test"
-INTERFACE_1="p1p1"
+PROFILE="Redhat_8_hadoop"
+ENV_NAME="UTS-TEST"
+INTERFACE_1="bond0"
 IP_RANGE_1="10.50.11.1 10.50.20.254"
-NETMASK_1="255.255.0.0"
+NETMASK_1="255.255.224.0"
 GATEWAY_1="10.50.0.10"
 DNS1="10.50.0.10"
 
@@ -32,7 +31,6 @@ do
     fi
   done
 done
-
 
 for SYSTEM_NUM in $(seq 1 ${SYSTEMS_COUNT})
 do
